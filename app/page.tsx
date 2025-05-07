@@ -34,6 +34,8 @@ export default function Home() {
 
   const handleReset = () => {
     setBoard(Array(9).fill(""));
+    setXIndex(Array(3));
+    setOIndex(Array(3));
     setXIsNext(true);
   };
 
